@@ -1,0 +1,18 @@
+.{
+    .name = "tui-slideshow",
+
+    .version = "0.0.0",
+
+    .dependencies = .{
+        .vaxis = .{
+            .url = "https://github.com/rockorager/libvaxis/archive/fcdeb321feccc1b2b62391c1e257c385a799810e.tar.gz",
+            .hash = "1220be1b2c1cf8809459629fde0d7ff2eb1bca854a99e4ac69fa19e03afec9428460",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
